@@ -10,8 +10,8 @@
 :root {
     --color-white: #fff;
     --color-black: #020202;
-    --color-white: #fff;
-    --color-white: #fff;
+    --color-green: rgb(12, 110, 3);
+    --color-orange: rgb(243, 149, 41);
 }
 body {
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
@@ -24,22 +24,44 @@ h1, h2 {
     color: var(--color-white);
     font-size: 2em;
 }
-.header, 
+.header1, .header2, .header3, .header4, 
 .navigation_header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 3em;
+    height: 3.5em;
 }
-.header {
-    background-color: var(--color-black);
-    justify-content: space-between;
-    padding: 0 2%;
-}
+
 .navigation_header {
     gap: 2em;
 }
 .navigation_header a {
     color: var(--color-white);
     text-decoration: none;
+}
+.header1, .header2, .header3, .header4 {
+    justify-content: space-between;
+    padding: 0 2%;
+}
+.header1 {
+    background-color: var(--color-black);
+}
+.header2 {
+    background-color: var(--color-green);
+}
+.header3 {
+    background-color: var(--color-orange);
+}
+.noticias {
+    display: flex;
+    justify-content: center;
+}
+.destaque {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.titulo2 {
+    color: var(--color-green);
 }
