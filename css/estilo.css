@@ -53,7 +53,6 @@ a {
 }
 .header {
     position: fixed; right: 0; top: 0; left: 0;
- 
     justify-content: space-between;
     padding: 0 2%;
 }
@@ -67,17 +66,29 @@ a {
     display: flex;
     margin-top: 96px;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 100px;
 }
 .noticia {
     display:flex;
+    width: 100%;
 }
 .subtitulo {
     color: var(--color-black);
-    
 }
 .noticia > .subtitulo, .titulo {
     display:flex;
-    width: 50%;
+    margin-left: 5px;
+}
+.noticia > .titulo, .subtitulo {
+    display:flex;
+    margin-left: 5px;
+}
+
+@media  (max-width: 700px) {
+    h1 {
+        font-family: 'Noto Serif', serif;
+        font-size: 14px;
+    }
 }

@@ -32,7 +32,13 @@ a:hover > h1{
     </div>
     <div class="container">
         <div class="destaque">
-            <a href="destaque21.html"><img style="width: 100%;" src="img/equidna-caracteristicas-1.jpg" alt=""></a>
+            <a href="destaque21.html">
+                <picture>
+                    <source media=" (max-width: 700px)" srcset="img/pexels-pixabay-247399 (3).jpg" type="image/jpg">
+                    <source media=" (max-width: 1400px)" srcset="img/pexels-pixabay-247399 (2).jpg" type="image/jpg">
+                <img style="width: 100%;" src="img/pexels-pixabay-247399.jpg" alt="">
+            </picture>
+            </a>
             <a href="destaque21.html">
                 <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
                 <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
@@ -40,12 +46,10 @@ a:hover > h1{
             
         </div>
         <div class="noticia">
-            <a href="noticia21.html"><img style="width: 45%;" src="img/download.jpg" alt="">
-                <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-                <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
-            </a>
+            <a href="noticia21.html"><img style="width: 100%; min-width: 150px;" src="img/download.jpg" alt=""> </a>
         <a href="noticia21.html">
-           
+            <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+            <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
         </a>
         </div>
     </div>
