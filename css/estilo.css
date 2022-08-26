@@ -61,6 +61,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: 55%;
+    height: 100%;
     background-color: lavender;
     text-align: center;
 }
@@ -70,7 +71,7 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-bottom: 80px;
+    margin-bottom: 10px;
 }
 .noticia {
     display:flex;
@@ -102,5 +103,17 @@ hr {
     h2 {
         font-family: 'Noto Serif', serif;
         font-size: 11px;
+    }
+}
+@media (max-width: 590px) {
+    .container{
+        width: 100%;
+    }
+    .header {
+        flex-direction: column;
+        height: 4em;
+    }
+    .logo_header {
+        font-size: 1.5em;
     }
 }
