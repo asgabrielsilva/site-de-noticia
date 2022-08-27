@@ -12,7 +12,12 @@
     --color-black: #020202;
     --color-green: rgb(12, 110, 3);
     --color-darkgreen: rgb(6, 71, 0);
-    --color-orange: rgb(243, 149, 41);
+    --color-orange: rgb(226, 121, 0);
+    --color-darkorange: rgb(158, 71, 0);
+    --color-lavender: rgb(230,230,250);
+    --color-ligthblack: #000000c0;
+    --color-red: rgb(185, 0, 0);
+    --color-darkred: rgb(136, 0, 0);
 }
 body {
     font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
@@ -62,7 +67,7 @@ a {
     flex-wrap: wrap;
     width: 55%;
     height: 100%;
-    background-color: lavender;
+    background-color: var(--color-lavender);
     text-align: center;
 }
 .destaque {
@@ -95,6 +100,14 @@ hr {
     margin-bottom: 20px;
     
 }
+.conteudo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 900px;
+    margin-top: 56px;
+}
 @media  (max-width: 805px) {
     h1 {
         font-family: 'Noto Serif', serif;
@@ -115,5 +128,11 @@ hr {
     }
     .logo_header {
         font-size: 1.5em;
+    }
+    .noticia img {
+        margin-left: 2px;
+    }
+    .conteudo {
+        margin-top: 64px;
     }
 }

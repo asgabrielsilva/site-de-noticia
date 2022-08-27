@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,37 +8,60 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/estilo.css">
     <style>
-.titulo {
-    color: var(--color-green);
-}
-.header {
-    background-color: var(--color-green);
-}
-a:hover > h1{
-     color: var(--color-darkgreen);
-    
-}
+        .titulo {
+            color: var(--color-black);
+        }
 
+        .header {
+            background-color: var(--color-black);
+        }
+
+        a:hover>h1 {
+            color: var(--color-ligthblack);
+
+        }
     </style>
 </head>
+
 <body>
     <div class="header">
-        <div class="logo_header">Equidna</div> <!--Divulgar a equidna para que mais pessoas a conheçam-->
+        <div class="logo_header">Equidna</div>
+        <!--Divulgar a equidna para que mais pessoas a conheçam-->
         <nav class="navigation_header">
-            <a href="index.html">Destaques</a>
-            <a href="esportes.html" style="background-color: var(--color-darkgreen);border-radius: 20%;padding: 2px 2px 2px 2px;">Esportes</a>
+            <a href="index.html" style="background-color: var(--color-lavender);
+            border-radius: 20%;padding: 2px 2px 2px 2px;
+            color: var(--color-black);">Destaques</a>
+            <a href="esportes.html">Esportes</a>
             <a href="tecnologia.html">Tecnologia</a>
-            <a href="#">Sei la</a>
+            <a href="cinema.html">Cinema</a>
         </nav>
     </div>
     <div class="container">
+        <div class="destaque">
+            <a href="destaque1.html">
+                <picture>
+                    <source media=" (max-width: 700px)" srcset="img/pexels-gilberto-olimpio-7329774.jpg"
+                        type="image/jpg">
+                    <source media=" (max-width: 1400px)" srcset="img/pexels-gilberto-olimpio-7329774 (1).jpg"
+                        type="image/jpg">
+                    <img style="width: 90%;" src="img/pexels-gilberto-olimpio-7329774 (2).jpg" alt="">
+                </picture>
+            </a>
+            <a href="destaque1.html">
+                <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
+            </a>
+        </div>
+
+        <hr>
+
         <div class="destaque">
             <a href="destaque2.html">
                 <picture>
                     <source media=" (max-width: 700px)" srcset="img/pexels-pixabay-247399 (3).jpg" type="image/jpg">
                     <source media=" (max-width: 1400px)" srcset="img/pexels-pixabay-247399 (2).jpg" type="image/jpg">
-                <img style="width: 90%;" src="img/pexels-pixabay-247399.jpg" alt="">
-            </picture>
+                    <img style="width: 90%;" src="img/pexels-pixabay-247399.jpg" alt="">
+                </picture>
             </a>
             <a href="destaque2.html">
                 <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
@@ -47,55 +71,41 @@ a:hover > h1{
 
         <hr>
 
-        <div class="noticia">
-            <a href="noticia21.html">
-            <img style="width: 100%;" src="img/download.jpg" alt="">
+        <div class="destaque">
+            <a href="destaque3.html">
+                <picture>
+                    <source media=" (max-width: 700px)" srcset="img/pexels-cottonbro-4709288.jpg" type="image/jpg">
+                    <source media=" (max-width: 1400px)" srcset="img/pexels-cottonbro-4709288 (1).jpg" type="image/jpg">
+                    <img style="width: 90%; max-width: 900px;" src="img/pexels-cottonbro-4709288 (2).jpg" alt="">
+                </picture>
             </a>
-        <a href="noticia21.html">
-            <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-            <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
-        </a>
-        </div>
-
-        <hr>
-        
-        <div class="noticia">
-            <a href="noticia22.html">
-            <img style="width: 100%;" src="img/download.jpg" alt="">
+            <a href="destaque3.html">
+                <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
             </a>
-        <a href="noticia22.html">
-            <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-            <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
-        </a>
-        </div>
-
-        <hr>
-        
-        <div class="noticia">
-            <a href="noticia23.html">
-            <img style="width: 100%;" src="img/download.jpg" alt="">
-            </a>
-        <a href="noticia23.html">
-            <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-            <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
-        </a>
-        </div>
-
-        <hr>
-        
-        <div class="noticia">
-            <a href="noticia24.html">
-            <img style="width: 100%;" src="img/download.jpg" alt="">
-            </a>
-        <a href="noticia24.html">
-            <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
-            <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
-        </a>
         </div>
 
         <hr>
 
+        <div class="destaque">
+            <a href="destaque4.html">
+                <picture>
+                    <source media=" (max-width: 700px)" srcset="img/pexels-arina-krasnikova-5418252 (2).jpg"
+                        type="image/jpg">
+                    <source media=" (max-width: 1400px)" srcset="img/pexels-arina-krasnikova-5418252 (1).jpg"
+                        type="image/jpg">
+                    <img style="width: 90%; max-width: 900px;" src="img/pexels-arina-krasnikova-5418252.jpg" alt="">
+                </picture>
+            </a>
+            <a href="destaque4.html">
+                <h1 class="titulo">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                <h2 class="subtitulo"> Incidunt accusamus atque quae dolores esse aperiam ea, ducimus temporibus!</h2>
+            </a>
+        </div>
+
+        <hr>
 
     </div>
 </body>
+
 </html>
